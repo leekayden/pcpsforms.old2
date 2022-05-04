@@ -7,3 +7,4 @@
 
 ### Backend
 - Django Python framework for web dev
+- SQLite3 for database
