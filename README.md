@@ -1,5 +1,9 @@
 # PCPSForms
 
-## Built using:
-- Python with Django framework and Jinja templating language
-- Vanilla Javascript
+## Languages used
+### Frontend
+- HTML and Jinja for templating
+- Vanilla JavaScript
+
+### Backend
+- Django Python framework for web dev
