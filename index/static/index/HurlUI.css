@@ -2,11 +2,16 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Times+New+Roman");
+@import url("https://fonts.googleapis.com/css?family=Product+Sans");
+@import url("https://fonts.googleapis.com/css?family=Google+Sans");
+
+* {
+  font-family: "Product Sans" !important;
+}
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman", "Roboto Condensed", "Poppins", "Arial";
 }
 
 .center {
@@ -62,6 +67,12 @@ body {
 .btn-dark {
   background-color: #1c1e1f !important;
   color: #fff !important;
+}
+
+.bg-dark:hover,
+.btn-dark:hover {
+  transition: background-color #999 1s !important;
+  transition-delay: 0.2s !important;
 }
 
 .bg-light,

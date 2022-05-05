@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 })
 
             })
-            document.title = `${this.value} PCPSForms`
+            document.title = `${this.value} | PCPSForms Form Editor`
             document.querySelectorAll(".input-form-title").forEach(ele => {
                 ele.value = this.value;
             })

@@ -62,7 +62,7 @@ def register(request):
             return HttpResponseRedirect(reverse('index'))
         except IntegrityError:
             return render(request, "index/register.html", {
-                "message": "Username already taken"
+                "message": "Username is already taken"
             })
     return render(request, "index/register.html")
 

@@ -20,7 +20,7 @@
             <img src="{% static 'Icon/eye.png' %}" alt="Preview icon" title = "Preview" class="nav-form-menu-icon big-screen" />
             </a>
             <img src="{% static 'Icon/send.png' %}" alt ="Send icon" title = "Send" class="nav-form-menu-icon small-screen" id="send-form-btn" />
-            <img src="{% static 'Icon/setting.png' %}" alt="Setting icon" title = "Setting" class="nav-form-menu-icon open-setting" />
+            <img src="{% static 'Icon/setting.png' %}" alt="Settings icon" title = "Setting" class="nav-form-menu-icon open-setting" />
             <button class = "btn send-form-btn big-screen" title = "Send" id="send-form-btn">Send</button>
         </div>
     </div>
@@ -162,7 +162,7 @@
         <div class="modal-content txt-clr">
             <form id="setting-form">
                 <span class="modal-close-btn" id="close-setting">&times;</span>
-                <h1 class = "modal-title">Setting</h1>
+                <h1 class = "modal-title">Settings</h1>
                 <h4 class="setting-preview-form small-screen"><a href="{% url 'view_form' form.code %}">Preview form here</a></h4>
                 <div class="modal-division">
                     <div class="form-group">
@@ -205,7 +205,7 @@
                 <fieldset class="form-group">
                     <legend class="modal-subtitle text-danger danger-zone">Danger Zone</legend>
                     <h3 class="delete-form-title">Delete this form</h3>
-                    <p class="delete-form-description">Once you delete a form, there is no going back. Please be certain.</p>
+                    <p class="delete-form-description">Once you delete a form, you will permanantly lose your form questions and all the responses. There is no going back after this action has been made, so please be certain.</p>
                     <input type="submit" value="Delete" class="form-control delete-form-btn">
                 </fieldset>
             </form>
@@ -219,7 +219,7 @@
                 <h4 class="modal-subtitle">Link:</h4>
                 <input type="url" class="form-control" value="http://{{request.get_host}}/form/{{form.code}}/viewform" copy-btn id="copy-url">
             </div>
-            <button class="btn btn-submit" copy-btn>Copy</button>
+            <button class="btn btn-submit" copy-btn>Copy link</button>
         </div>
     </div>
 </div>

@@ -4,6 +4,8 @@
 
 body {
   scroll-behavior: smooth;
+  user-select: none;
+  font-family: "Product Sans" !important;
 }
 
 .form-error {
@@ -116,7 +118,7 @@ body {
 }
 
 .form-template-box {
-  margin: 5px 30px 10px 0;
+  margin: 5px 25px 10px 0;
   float: left;
 }
 
@@ -127,7 +129,7 @@ body {
 }
 
 .form-template-box:hover {
-  border: 1px solid #808080;
+  border: 0.8px solid #808080;
 }
 
 .form-box {
