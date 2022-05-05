@@ -216,6 +216,7 @@
             <span class="modal-close-btn" id="close-send-form">&times;</span>
             <h1 class = "modal-title">Send form</h1>
             <div class="modal-division">
+                <h4 class="modal-subtitle">Congrats! Your form has been uploaded to our servers at <a href="http://{{request.get_host}}">https://{{request.get_host}}</a>!</h4>
                 <h4 class="modal-subtitle">Link:</h4>
                 <input type="url" class="form-control" value="http://{{request.get_host}}/form/{{form.code}}/viewform" copy-btn id="copy-url">
             </div>
